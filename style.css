@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&display=swap');
+
+body {
+    background: #202733;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+.Advice-Generator { 
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: hsl(217, 19%, 24%);
+    padding : 30px;
+    max-width: 400px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.text-container {
+    padding-bottom: 30px;
+}
+
+.title-style { 
+    color: hsl(150, 100%, 66%);
+    font-family: 'Manrope', sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.advice-generator_quote {
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.advice-generator_Output {
+    text-align: center;
+}
+
+.advice-generator_btn {
+    position: absolute;
+    left: 50%;
+    bottom: -25px;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+
+.advice-generator_btn:hover {
+    box-shadow: 0 0 24px hsl(150, 100%, 66%);
+}
+
+.separator-images {
+    padding-bottom: 20px;
+}
+
+.attribution{
+    color: hsl(193, 38%, 86%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 9px;
+}
